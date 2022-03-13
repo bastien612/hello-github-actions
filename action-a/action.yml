@@ -2,11 +2,11 @@ name: "Hello Actions"
 description: "Great someone"
 author: "bastien.meunier@outlook.com"
 
-input:
+inputs:
   MY_NAME:
     description: "Who to greet"
     required: true
-    defalt: "World"
+    default: "World"
 
 runs:
   using: "docker"
